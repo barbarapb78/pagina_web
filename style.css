@@ -1,0 +1,440 @@
+.contenedor{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(244, 238, 231);
+    
+}
+
+.cabecera0{
+    display: grid;
+    width: 100%;
+    height: 13em;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr ;
+    background-color: antiquewhite;
+    
+}
+
+.cabecera1{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-items: center;
+    padding-top: 1em;
+    padding-left: 3em;  
+    font-size: x-large;
+    border-bottom: solid;   
+    font-family:"poppins",sans-serif;
+  
+}
+.cabecera2{
+display: grid;
+grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 2;
+grid-column-end: 3;
+align-items: center;
+justify-content: center;
+font-family:"poppins",sans-serif;
+
+}
+
+  
+.cabecera3{
+    display: grid;
+    grid-row-start: 2;
+    grid-column-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    align-items: center;
+    justify-content: center;
+    font-family:"poppins",sans-serif;
+    
+}
+.cabecera4{
+    display: grid;
+    grid-row-start: 2;
+    grid-column-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    align-items: center;
+    justify-content: center;
+    font-family:"poppins",sans-serif;
+    
+}
+.cabecera5{
+    display: grid;
+    grid-row-start: 2;
+    grid-column-end: 3;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    align-items: center;
+    justify-content: center;
+    font-family:"poppins",sans-serif;  
+}
+.cabecera6{
+    display: grid;
+    grid-row-start: 2;
+    grid-column-end: 3;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    align-items: center;
+    justify-content: center;
+    font-family:"poppins",sans-serif;
+    
+}
+.cabecera7{
+    display: grid;
+    grid-row-start: 2;
+    grid-column-end: 3;
+    grid-column-start: 7;
+    grid-column-end: 8;
+    align-items: center;
+    justify-content: end;
+    padding-right: 4em;
+    font-family:"poppins",sans-serif;
+}
+.cuerpo0{
+    display: grid;
+    background-color: rgb(232, 215, 196);
+    height: 40em;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-left: 7em;;
+    padding-top: 2em;
+    gap: 0.4em;  
+    font-family:"poppins",sans-serif;
+    font-weight: bold;
+
+    
+}
+.cuerpo13{
+    display: grid;
+    padding-left: 1em;   
+    color:rgb(76, 113, 76); 
+ 
+}
+.cuerpo14{
+    display: grid;
+    padding-left: 1em;   
+     color: rgb(157, 55, 55)
+    
+}
+.cuerpo15{
+    display: grid;
+    padding-left: 1em;  
+    color: rgb(156, 11, 156);
+   
+}
+.disco{
+    display: flex;
+    flex-direction: row;
+    height: 80em;
+    background-color:  rgb(250, 238, 227);
+    font-family:"poppins",sans-serif;
+    color:  rgb(72, 50, 24);;
+    
+}
+
+.disco0{
+    display: flex;
+    flex-direction: row;
+    background-color:  rgb(242, 228, 216);
+    height: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 7em;
+    color:  rgb(61, 44, 22);
+    border-top: 0.5em solid ;
+    border-color:   rgb(250, 238, 227);
+    font-family: "poppins",sans-serif;
+   
+}
+.disco1{
+    display: flex;
+    flex-direction: row;
+    height: 19em;
+    gap:3em;
+    padding-top: 4em;
+    padding-right: 7em;
+    padding-left: 7em;
+    padding-bottom: 2em;
+    justify-content: center;
+    align-items: end;
+    font-size:15px;
+        
+}
+
+.disco2{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 18em;
+    gap:3em;
+    padding-right: 7em;
+    padding-left: 7em;
+    padding-top: 1em;
+    justify-content: center;
+    align-items: end;
+    font-size:15px;
+   
+     
+}
+.disco3{
+    display: flex;
+    flex-direction: row;
+    height: 21em;
+    gap:3em;
+    padding-right: 7em;
+    padding-left: 7em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+     padding-top: 0.5em;
+    justify-content: center;
+    align-items: end;
+    font-size:15px;
+}
+.disco4{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 18em;
+    gap:3em;
+    padding-right: 7em;
+    padding-left: 7em;
+    padding-top: 1em;
+    justify-content: center;
+    align-items: end;
+    font-size:15px;
+}
+  
+
+.disco5{
+    display: flex;
+    flex-direction: row;
+    height: 19em;
+    gap:3em;
+    padding-right: 7em;
+    padding-left: 7em;
+    padding-top: 2em;
+    justify-content: center;
+    align-items: end;
+    font-size:15px;
+}
+
+.disco6{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 19em;
+    gap:3em;
+    padding-right: 7em;
+    padding-left: 7em;
+    padding-top: 2em;
+    padding-bottom: 4em;
+    justify-content: center;
+    align-items: end;
+    font-size:15px;
+    
+}
+
+.boton-comprar {
+    width: 100%;
+    background-color:  rgb(221, 207, 195);
+    color:  rgb(48, 35, 18);
+    font-size: 0.9em;
+    font-weight: bolder;          
+    padding: 0.3em 0.7em;       
+    border:none;           
+    border-radius: 0.2em;        
+    cursor: pointer;         
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+  }
+
+  
+  
+  .boton-comprar:hover {
+    background-color: rgb(170, 154, 140);
+    transform: scale(1.05);  
+  }
+  
+  /* Efecto al presionar el botón (active) */
+  .boton-comprar:active {
+    background-color: rgb(153, 139, 126);
+    transform: scale(0.98);     /* Reduce ligeramente el tamaño del botón */
+  }
+  .spotify-icon {
+    font-size: 1.5em; /* Tamaño del icono */
+    color: #1DB954; /* Color verde de Spotify */
+    text-decoration: none; /* Elimina el subrayado */
+    transition: color 0.3s ease; /* Transición para el color */
+    padding-left: 0.5em;
+  }
+
+  .spotify-icon:hover {
+    color: #1bad4e; /* Color más oscuro al pasar el ratón */
+  }
+  
+  
+.libros{
+    display: flex;
+    flex-direction: column;
+    height:36em;
+    gap: 5em;
+    background-color:   rgb(250, 241, 228);
+   
+    
+   
+}
+.libro0{
+    display: flex;
+    flex-direction: row;
+    height: 4em;
+    background-color:  rgb(242, 228, 216);
+    padding-left: 7em;
+    color:  rgb(61, 44, 22);
+    border-top: 0.5em solid ;
+    border-color:   rgb(251, 244, 237);
+    font-family: "poppins",sans-serif;
+    padding-top: 1em;
+    
+   
+}
+.libro1{
+    display: flex;
+   flex-direction: row;
+    width: 80rem;
+    padding-top: 3em;
+    gap: 13.5em;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+  
+.libro2{
+    display: flex;
+    flex-direction: row;
+    gap:17.3em;
+   padding-left: 8em;
+   padding-top: 1.5em;
+}
+
+/*.boton-comprar2 {
+    width: 50%;
+    background-color:  rgb(221, 207, 195);
+    color:  rgb(48, 35, 18);
+    font-size: 0.6em;          
+    padding: 0.3em 0.7em;       
+    border:none;           
+    border-radius: 0.2em;        
+    cursor: pointer;         
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+  }
+
+  
+  
+  .boton-comprar2:hover {
+    background-color: rgb(170, 154, 140);
+    transform: scale(1.05);  
+  }
+  
+   Efecto al presionar el botón (active) 
+
+  .boton-comprar2:active {
+    background-color: rgb(153, 139, 126);
+    transform: scale(0.98);     Reduce ligeramente el tamaño del botón 
+}
+*/
+
+  .comprar-icono {
+    font-size: 0.8em; 
+    color:  rgb(61, 44, 22);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+   
+  }
+
+  .comprar-icono:hover {
+    transform: scale(1.2); /* Agranda el icono al pasar el ratón */
+  }
+  .libro3{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    font-family:"poppins",sans-serif;
+    font-weight: normal;
+    font-size:14px;
+   gap:7em;
+  margin-right: 10em;
+  margin-left: 2em;
+  padding-top: 1em;
+  text-align: center;
+  }
+
+  .biografia{
+    display: flex;
+    flex-direction: column;
+    height: 40em;
+    background-color: rgb(66, 66, 57);
+    
+   
+  
+  }
+  .bio{
+    display: flex;
+    flex-direction: row;
+    height: 4em;
+    background-color:  rgb(242, 228, 216);
+    padding-bottom: 0.5em;
+    padding-left: 7em;
+    color:  rgb(217, 209, 199);
+    border-top: 0.5em solid ;
+    border-color:   rgb(251, 244, 237);
+    font-family: "poppins",sans-serif;
+    padding-top: 1em;
+    background-color: rgb(53, 46, 46);
+    
+
+  }
+ 
+  .fotobio{
+    display: flex;
+    flex-direction: row;
+    height: 16em;
+    background-color: darkgray;
+    justify-content: center;
+    align-items: center;
+    padding-right: 8em;
+    
+
+  }
+  .textobio{
+    display: flex;
+    flex-direction: row;
+    height: 28em;
+    font-family: "poppins",sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8em;
+    padding-right: 8em;
+
+  }
+
+.footer{
+ 
+    display: flex;
+    flex-direction:column;
+    height: 10em;
+    background-color: rgb(34, 34, 24);
+    border-top: 0.5em solid ;
+    border-color:   rgb(251, 244, 237);
+    font-family: "poppins",sans-serif;
+    
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    height: 1em;
+    background-color: rgb(34, 34, 24);
+}
