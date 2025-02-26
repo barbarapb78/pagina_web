@@ -421,20 +421,65 @@ font-family:"poppins",sans-serif;
 
   }
 
-.footer{
+
+  .footer{
  
     display: flex;
-    flex-direction:column;
-    height: 10em;
-    background-color: rgb(34, 34, 24);
+    flex-direction: column;
+    background-color:  rgb(40, 40, 30);
     border-top: 0.5em solid ;
     border-color:   rgb(251, 244, 237);
     font-family: "poppins",sans-serif;
+    height: 8em;
+    
     
 }
-.foot{
-    display: flex;
-    flex-direction: row;
-    height: 1em;
-    background-color: rgb(34, 34, 24);
+
+
+.foot1{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  padding-left: 4em;
+  padding-top: 3em;;
+  padding-bottom: 1em;
+}
+.foot2{
+
+  display: flex;
+  flex-direction: row;
+  color:  rgb(251, 244, 237);
+  font-family: "poppins",sans-serif;
+  font-size: x-small;
+  justify-content: center;
+  align-items: center;
+
+
+ 
+}
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  padding-left: 8em;
+  
+}
+
+.social-icons a {
+  font-size: 1.5em;  
+  color:  rgb(217, 209, 199);
+  text-decoration: none;  
+  transition: color 0.3s ease;  
+}
+
+ .social-icons .icon1 a:hover {
+  color: #0073e6;  
+}
+.social-icons .icon2 a:hover {
+  color: #ba448f;  
+}
+
+.social-icons .icon3 a:hover {
+  color: #aa0e19;  
 }
